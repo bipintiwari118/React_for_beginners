@@ -1,3 +1,5 @@
+import User from "./Props";
+
 function clickMe() {
   alert("Click Me 2222");
 }
@@ -6,6 +8,23 @@ function Bipin() {
   const fruit = () => {
     alert("I am a fruit");
   };
+
+  // let name = "Rahul";
+  // let age = 30;
+  // let email = "email@gmail.com";
+  let userObject = {
+    name: "Sudip",
+    age: "35",
+    email: "sudip@gmail.com"
+  };
+
+  let address={
+    permanent:'Gorkha',
+    temporary:'Kathmandu'
+  }
+
+  let color=['red','yellow','pink']
+
   return (
     <div>
       <h1>Bipin Tiwari</h1>
@@ -22,6 +41,8 @@ function Bipin() {
       <button onClick={clickMe}>Click Me</button>
 
       <h1>The sum is {sum(12, 13)}</h1>
+      {/* <User name={name} age={age} email={email} /> */}
+      <User user={userObject} address={address} color={color} />
     </div>
   );
 
