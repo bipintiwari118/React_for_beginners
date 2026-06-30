@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Radio from "./Radio";
 
 function Skills() {
   const [skill, setSkill] = useState([]);
@@ -44,8 +45,13 @@ function Skills() {
       <br />
       <input onChange={handelSkill} type="checkbox" name="" id="c" value="C" />
       <label htmlFor="c">C</label>
-
       <h1>{skill.toString()}</h1>
+      <br />
+      <br /> <br /> <br /> <br />
+
+      <h1>Using Radio Butto</h1>
+
+      <Radio />
     </div>
   );
 }
