@@ -1,6 +1,6 @@
 function User({ user, address,color }) {
   return (
-    <div>
+    <div style={{ color:"yellow" }}>
       <h1>User Details:</h1>
       <h2>Username:{user.name} </h2>
       <h2>Age:{user.age}</h2>
