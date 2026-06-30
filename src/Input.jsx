@@ -4,6 +4,7 @@ function Input() {
   const [val, setVal] = useState("Bipin Tiwari");
   const [val1, setVal1] = useState("12");
   const [val2, setVal2] = useState("user@gmail.com");
+
   return (
     <div>
       <h1>Get input field value</h1>

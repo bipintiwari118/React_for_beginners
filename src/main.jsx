@@ -8,6 +8,7 @@ import Display from './Toogle.jsx'
 import Mcondition from './Mc.jsx'
 import User from './Props.jsx'
 import Input from './Input.jsx'
+import Skills from './Checkbox.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -15,6 +16,8 @@ createRoot(document.getElementById('root')).render(
     <Counter />
     <Display />
     <Mcondition /> */}
-   <Input />
+     {/* <Input /> */}
+     <Skills />
   </StrictMode>,
+
 )
